@@ -17,8 +17,8 @@
     ),
     url("/img/bg-google.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: contain;
+  background-attachment:fixed;
+  background-size: cover;
 }
 
 .bg-facebook {
@@ -30,8 +30,8 @@
     ),
     url("/img/bg-facebook.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: contain;
+  background-attachment:fixed;
+  background-size: cover;
 }
 .bg-tiktok {
   border: 0;
@@ -43,6 +43,7 @@
     url("/img/bg-tiktok.jpg");
   background-repeat: no-repeat;
   background-attachment:fixed;
+  background-size: cover;
 }
 .bg-ifood {
   border: 0;
@@ -54,7 +55,7 @@
     url("/img/bg-ifood.jpg");
   background-repeat: no-repeat;
   background-attachment:fixed;
-  background-size: contain;
+  background-size: cover;
 }
 .bg-softbank {
   border: 0;
@@ -66,7 +67,7 @@
     url("/img/bg-softbank.jpg");
   background-repeat: no-repeat;
   background-attachment:fixed;
-  background-size: contain;
+  background-size: cover;
 }
 .bg-mercadolivre {
   border: 0;
@@ -78,5 +79,5 @@
     url("/img/bg-mercadolivre.jpg");
   background-repeat: no-repeat;
   background-attachment:fixed;
-  background-size: contain;
+  background-size: cover;
 }
