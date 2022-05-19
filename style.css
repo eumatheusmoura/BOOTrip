@@ -1,0 +1,20 @@
+#Back{
+    display: none;
+}
+#FormCadastro{
+    width: 35rem;
+}
+
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px; 
+}
+
+
+@media screen and (max-width: 500px) {
+    #FormCadastro{
+        width: 24rem;
+    }
+}
