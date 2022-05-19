@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootrip</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <nav class="navbar  navbar-expand-md bg-light" id="Navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand text-warning text-uppercase fw-semibold" href="#">Boo<span class="text-muted">trip</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Serviços</a>
+          <a class="nav-link" href="#">Valores</a>
+          <a class="nav-link" href="#">Contato</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container-fluid">
+    <div class="row bg-dark">
+
+      <div class="col-lg-7 p-0">
+        <div id="bootcampOptions" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#bootcampOptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#bootcampOptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#bootcampOptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#bootcampOptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#bootcampOptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#bootcampOptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/google.jpg" class="d-block w-100" alt="Foto da faixada da Google">
+              <div class="carousel-caption d-none d-md-block blur">
+                <h4 class="text-uppercase txt-shadow">Google</h5>
+                  <p class="txt-shadow">Vale do Silício, Califónia - Estados Unidos.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/facebook.jpg" class="d-block w-100" alt="Foto da faixada do Facebook em Londres">
+              <div class="carousel-caption d-none d-md-block blur">
+                <h4 class="text-uppercase txt-shadow">Meta (Facebook)</h5>
+                  <p class="txt-shadow">Londres, Reino Unido.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/bytedance.jpg" class="d-block w-100" alt="Sede da ByteDance">
+              <div class="carousel-caption d-none d-md-block blur">
+                <h4 class="text-uppercase txt-shadow">ByteDance (Tik Tok)</h5>
+                  <p class="txt-shadow">Pequim, China.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/ifood.jpg" class="d-block w-100 " alt="Sede do Ifood">
+              <div class="carousel-caption d-none d-md-block blur">
+                <h4 class="text-uppercase txt-shadow">Ifood</h5>
+                  <p class="txt-shadow">São Paulo Capital, Brasil.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/softbank.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block blur">
+                <h4 class="text-uppercase txt-shadow">SoftBank</h5>
+                  <p class="txt-shadow">Tóquio, Japão.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/mercadolivre.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block blur">
+                <h4 class="text-uppercase txt-shadow">Mercado Livre</h5>
+                  <p class="txt-shadow">Buenos Aires, Argentina.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#bootcampOptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#bootcampOptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-5 p-4 text-white d-flex flex-column justify-content-center">
+        <h1 class="display-4 ">O bootcamp que vai mudar a sua carreira</h1>
+        <p class="lead">A melhor forma de aprender é na prática, mas imagina poder viajar, treinar o seu inglês e trabalhar temporariamente no emprego dos seus sonhos?</p>
+        <p class="lead">A BOOTrip <span class="text-warning">é sobre isso</span> e muito mais! </p>
+        <form>
+          <div class="input-group input-group-lg">
+            <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="button-addon2">
+            <button class="btn btn-warning" type="button" id="button-addon2">Inscreva-se</button>
+          </div>
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="container-fluid py-5 bg-warning text-center">
+    <div class="container">
+
+      <div class="my-5">
+        <h2 class="display-5 text-white text-uppercase fw-semibold">Sobre as <span class="text-muted">Vantagens</span></h2>
+      </div>
+      <div class="row">
+
+        <div class="col-xl-4 col-md-6">
+          <div style="height: 100px;" class="d-flex justify-content-center">
+            <img src="./img/icon-tech.png" alt="Tecnologia">
+          </div>
+          <h3>Tecnologia</h3>
+          <p>Sim, você estará dentro das melhores empresas de tecnologia do mundo aprendendo na prática!</p>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div style="height: 100px;" class="d-flex justify-content-center">
+            <img src="./img/networking.png" alt="Network">
+          </div>
+          <h3>Network</h3>
+          <p>O programa irá te conectar com desenvolvedores experientes.</p>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div style="height: 100px;" class="d-flex justify-content-center">
+            <img src="./img/focus.png" alt="Foco">
+          </div>
+          <h3>Foco</h3>
+          <p>Longe da zona de conforto, a sua concentração irá 100% para aprender e se conectar com o universo ao qual for inserido.</p>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div style="height: 100px;" class="d-flex justify-content-center">
+            <img src="./img/experiencia.png" alt="Experiencias">
+          </div>
+          <h3>Experiencias</h3>
+          <p>Estágio de férias em uma empresa renomada e em um país completamente diferente.</p>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div style="height: 100px;" class="d-flex justify-content-center">
+            <img src="./img/passaporte.png" alt="Passaporte">
+          </div>
+          <h3>Documentos</h3>
+          <p>Contamos com parceria para agilizar toda a documentação para a viagem.</p>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div style="height: 100px;" class="d-flex justify-content-center">
+            <img src="./img/emprego.png" alt="Empregabilidade">
+          </div>
+          <h3>Empregabilidade</h3>
+          <p>100% dos nossos clientes foram empregados após o intercâmbio.</p>
+        </div>
+      </div>
+      <a href="planos.html" class="btn   btn-light btn-lg mt-4">Ver Planos</a>
+    </div>
+  </section>
+
+  <section class="container-fluid py-5 bg-light text-center">
+    <div class="container">
+      <div class="my-5">
+        <h2 class="display-5 text-warning text-uppercase fw-semibold">Conheça as <span class="text-muted">empresas</span></h2>
+        <p>Nossos parceiros são empresas extremamente renomadas no mercado e veem empregando muitos desenvolvedores pelo mundo. Além disso, são extremamentes competentes no que fazem e possuem escritórios em diversos países. Imagina o impacto de poder atuar temporariamente em uma dessas empresas? Leia um pouco mais sobre elas antes de escolher o seu destino. </p>
+      </div>
+
+      <div class="container my-5">
+
+        <div class="row gap-3 justify-content-center">
+
+          <div class="col-6 card bg-google align-items-center justify-content-center" style="width: 18rem; height: 30rem;">
+            <div>
+              <img style="padding: 15px; height: auto;" src="./img/logo-google.png" class="card-img-top blur" alt="Google logo">
+              <div class="card-body blur">
+                <h5 class="card-title">Google</h5>
+                <p class="card-text">Empresa de tecnologia multinacional americana que se concentra em inteligência artificial, mecanismo de busca, publicidade online entre outros.</p>
+                <a href="https://about.google/intl/ALL_br/" class="btn btn-warning">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 card bg-facebook align-items-center justify-content-center" style="width: 18rem;height: 30rem;">
+            <div class="">
+              <img style=" padding: 15px; height: auto;" src="./img/logo-face.png" class="card-img-top" alt="Logo do Facebook">
+              <div class="card-body">
+                <h5 class="card-title">Facebook</h5>
+                <p class="card-text">A Meta cria tecnologias que ajudam as pessoas a se conectarem, encontrarem comunidades e expandirem os negócios.</p>
+                <a href="https://about.facebook.com/br/" class="btn btn-warning">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 card bg-tiktok align-items-center justify-content-center" style="width: 18rem;height: 30rem;">
+            <div class="">
+              <img style=" padding: 15px; height: auto;" src="./img/logo-bytedance.svg" class="card-img-top" alt="Logo do Facebook">
+              <div class="card-body">
+                <h5 class="card-title">ByteDance (Tiktok)</h5>
+                <p class="card-text">Empresa de tecnologia que desenvolve ferramentas diversas inlcuindo o Tiktok, principal concorrente do instagram.</p>
+                <a href="https://www.bytedance.com/en/" class="btn btn-warning">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 card bg-ifood align-items-center justify-content-center" style="width: 18rem;height: 30rem;">
+            <div class="">
+              <img style=" padding: 15px; height: 100px; width: auto;" src="./img/logo-ifood.png" class="card-img-top" alt="Logo do Facebook">
+              <div class="card-body">
+                <h5 class="card-title">Ifood</h5>
+                <p class="card-text">Empresa de tecnologia do setor de alimentação (Foodtech), oferece platforma que conecta restaurantes, entregadores e consumidores.</p>
+                <a href="https://institucional.ifood.com.br/" class="btn btn-warning">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 card bg-softbank align-items-center justify-content-center" style="width: 18rem;height: 30rem;">
+            <div class="blur">
+              <img style=" padding: 15px; height: auto;" src="./img/logo-softbank.png" class="card-img-top" alt="Logo do Facebook">
+              <div class="card-body">
+                <h5 class="card-title">Softbank</h5>
+                <p class="card-text">Multinacional dos ramos de telecomunicações e de internet, investindo em diversas empresas e startups no mundo todo.</p>
+                <a href="https://www.softbank.jp/en/corp/" class="btn btn-warning">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 card bg-mercadolivre align-items-center justify-content-center" style="width: 18rem;height: 30rem;">
+            <div class="blur">
+              <img style=" padding: 15px; height: auto;" src="./img/logo-mercadolivre.png" class="card-img-top" alt="Logo do Facebook">
+              <div class="card-body">
+                <h5 class="card-title">Mercado Livre</h5>
+                <p class="card-text">Empresa latina de tecnologia que oferece os serviços necessários para que pessoas e empresas possam viabilizar seus negócios na Internet.</p>
+                <a href="https://www.mercadolivre.com.br/institucional/nos-comunicamos/noticia/tudo-sobre-o-mercado-livre/" class="btn btn-warning">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid py-5 bg-warning text-center">
+    <div class="container">
+    </div>
+  </section>
+
+  <div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="./bootstrap.js"></script>
+  </div>
+</body>
+
+</html>
