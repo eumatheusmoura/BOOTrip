@@ -18,9 +18,4 @@ class DadosCEP {
     }
 }
 
-export { DadosCEP }
-
-
-
-
 

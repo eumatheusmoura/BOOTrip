@@ -1,7 +1,14 @@
-#Back{
+
+
+#BackPositivo {
     display: none;
 }
-#FormCadastro{
+
+#BackNegativo {
+    display: none;
+}
+
+#FormCadastro {
     width: 35rem;
 }
 
@@ -9,12 +16,12 @@
 .card {
     margin: 0 auto;
     float: none;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 
 @media screen and (max-width: 500px) {
-    #FormCadastro{
+    #FormCadastro {
         width: 24rem;
     }
 }
