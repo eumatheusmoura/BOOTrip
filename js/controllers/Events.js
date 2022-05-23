@@ -1,17 +1,27 @@
-import {DadosCEP} from '../models/BuscaCep.js'
-import {dados} from '../views/Dados.js'
 
 $('#Buscar').click(function (e) {
     e.preventDefault();
-    const CEP = dados.CEP;
-    const Dados = new DadosCEP(CEP.val())
-    AlteraDados(Dados.getCEP())
+    try {
+        const CEP = BaseCadastro.CEP;
+        if (CEP.val().length == 8) {
+            Resposta.RetornaResBuscaPositivo()
+            const Dados = new DadosCEP(CEP.val())
+            AlteraDados(Dados.getCEP())
+        } else throw error;
+    } catch (error) {
+        Resposta.RetornaResBuscaNegativo()
+    }
 });
 
-function AlteraDados(Dados){
-    dados.Logradouro.val(Dados[0])
-    dados.Complemento.val(Dados[1])
-    dados.Cidade.val(Dados[2])
-    dados.Estado.val(Dados[3])
+function AlteraDados(Dados) {
+    BaseCadastro.Logradouro.val(Dados[0])
+    BaseCadastro.Complemento.val(Dados[1])
+    BaseCadastro.Cidade.val(Dados[2])
+    BaseCadastro.Estado.val(Dados[3])
+    BaseCadastro.Bairro.val(Dados[4])
 }
 
+$('#Cadastrar').click(function (e) {
+    e.preventDefault();
+    Resposta.RetornaResForm()
+});
