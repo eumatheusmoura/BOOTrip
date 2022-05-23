@@ -13,6 +13,7 @@ class DadosCEP {
             dado[1] = response.complemento
             dado[2] = response.localidade
             dado[3] = response.uf
+            dado[4] = response.bairro
         });
         return dado
     }

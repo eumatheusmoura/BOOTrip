@@ -1,6 +1,14 @@
 
 const Resposta = {
-    RetornaRes: function () {
+    RetornaResBuscaNegativo: function () {
+        $('#BackNegativo').css('display', 'block')
+        $('#Text1').text('Campo CEP não preenchido corretamente!');
+    },
+    RetornaResBuscaPositivo: function () {
+        $('#BackNegativo').css('display', 'none')
+        $('#Text1').text('Campo CEP não preenchido corretamente!');
+    },
+    RetornaResForm: function () {
         let VerificaCamps = BaseCadastro.TodosCampos()
         let verify = 0;
         let frase = "";
@@ -18,27 +26,22 @@ const Resposta = {
             const VerificaEmail = ValidaEmail(VerificaCamps[1])
             const VerificaSenha = ValidaSenha([VerificaCamps[2], VerificaCamps[3]])
             if (VerificaEmail == true && VerificaSenha == true) {
-                $('#BackPositivo').css('display', 'block')
                 $('#BackNegativo').css('display', 'none')
-                $('#Text').text('Cadastro realizado com sucesso!');
+                alert('Cadastro realizado com sucesso!');
             } else {
                 if (VerificaEmail == false && VerificaSenha == false) {
-                    $('#BackPositivo').css('display', 'none')
                     $('#BackNegativo').css('display', 'block')
                     $('#Text1').text('Campo Email e Senha não preenchido corretamente!');
                 } else if (VerificaSenha == false) {
-                    $('#BackPositivo').css('display', 'none')
                     $('#BackNegativo').css('display', 'block')
                     $('#Text1').text('Campo Senha não preenchido corretamente!');
                 } else {
-                    $('#BackPositivo').css('display', 'none')
                     $('#BackNegativo').css('display', 'block')
                     $('#Text1').text('Campo Email não preenchido corretamente!');
                 }
             }
         }
         else {
-            $('#BackPositivo').css('display', 'none')
             $('#BackNegativo').css('display', 'block')
             let lista = frase.split('')
             lista.splice(lista.length - 2)
@@ -59,13 +62,11 @@ function ValidaEmail(Email) {
     if (CampEmail.length == 2 && CampEmail[1] == "gmail.com" || CampEmail[1] == "outlook.com" || CampEmail[1] == "yahoo.com") return true
     else {
         Email.css('border', '1px solid #8C4404')
-        erro1 = 'Email'
         return false
     }
 }
 
 function ValidaSenha(Senhas, erro) {
-    console.log(Senhas)
     if (Senhas[0].val() == Senhas[1].val()) return true
     else {
         Senhas[0].css('border', '1px solid #8C4404')

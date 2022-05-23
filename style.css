@@ -1,5 +1,3 @@
-
-
 #BackPositivo {
     display: none;
 }
@@ -10,8 +8,8 @@
 
 #FormCadastro {
     width: 35rem;
+    --bs-bg-opacity: .79;
 }
-
 
 .card {
     margin: 0 auto;
@@ -19,9 +17,22 @@
     margin-bottom: 10px;
 }
 
+.Mybackground {
+    box-shadow: 0 0 0px 1000px white inset;
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
 
 @media screen and (max-width: 500px) {
     #FormCadastro {
         width: 24rem;
+    }
+
+    #CEP {
+        width: 100px;
+    }
+
+    #Numero {
+        width: 40px;
     }
 }

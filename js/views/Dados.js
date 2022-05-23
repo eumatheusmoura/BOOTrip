@@ -9,6 +9,7 @@ const BaseCadastro = {
     _Numero: $('#Numero'),
     Cidade: $('#Cidade'),
     Estado: $('#Estado'),
+    Bairro: $('#Bairro'),
 
 
     TodosCampos: function () {
@@ -22,6 +23,7 @@ const BaseCadastro = {
         dados[6] = this._Numero
         dados[7] = this.Cidade
         dados[8] = this.Estado
+        dados[9] = this.Bairro
         return dados
     }
 }
