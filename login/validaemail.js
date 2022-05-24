@@ -1,4 +1,4 @@
-(function () {
+function validaEmail() {
   const forms = document.querySelectorAll(".formulario");
 
   Array.prototype.slice.call(forms).forEach(function (form) {
@@ -15,4 +15,5 @@
       false
     );
   });
-})();
+}
+validaEmail();
