@@ -1,5 +1,5 @@
-function validaEmail() {
-  const forms = document.querySelectorAll(".formulario");
+(function () {
+  let forms = document.querySelectorAll(".formulario");
 
   Array.prototype.slice.call(forms).forEach(function (form) {
     form.addEventListener(
@@ -15,5 +15,4 @@ function validaEmail() {
       false
     );
   });
-}
-validaEmail();
+})();
