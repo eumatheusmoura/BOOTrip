@@ -1,0 +1,15 @@
+.titulo {
+    text-align: center;
+}
+
+.text {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.world {
+    width: 400px;
+}
