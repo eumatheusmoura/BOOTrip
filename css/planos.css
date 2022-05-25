@@ -24,3 +24,13 @@
     background-color: #ffc107;
     border-color: #ffc107;
 }
+
+.btn {
+    background-color: #ffc107;
+    color:black;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #ffbf00;
+}
