@@ -13,3 +13,14 @@
 .world {
     width: 400px;
 }
+
+.card {
+    background-color: #f8f9fa7b;
+    padding: 0;
+    border-color: #ffc107;
+}
+
+.card-header {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
