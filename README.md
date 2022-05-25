@@ -6,6 +6,7 @@
   <a href="#linguagens">Softwares & Ferramentas utilizadas</a>&nbsp;&nbsp;
   <a href="#habilidades">Habilidades adquiridas</a>&nbsp;&nbsp;
   <a href="#grupo">Autores</a> 
+     <a href="#contribuir">Como contribuir</a>&nbsp;&nbsp;
 </div>
 
 <h2 id="sobre">Sobre 🔎</h2>
@@ -77,6 +78,17 @@
     </td>
   </tr>
 </table>
+
+<h2 id="contribuir">Como contribuir 📫</h2>
+
+Para contribuir com nosso projeto, siga estas etapas:
+  >- Bifurque este repositório.
+  >- Crie um branch: `git checkout -b <nome_branch>`.
+  >- Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
+  >- Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
+  >- Crie a solicitação de pull.
+*Consulte a documentação do GitHub em* [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
 
 <div align="center">
   &#11165;&nbsp;<a href="#inicio"><strong>Voltar ao topo</strong></a>&nbsp;&#11165;
