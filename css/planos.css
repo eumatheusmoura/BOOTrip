@@ -25,13 +25,13 @@
     border-color: #ffc107;
 }
 
-.planos {
+.btn {
     background-color: #ffc107;
     color: black;
     margin-bottom: 20px;
 }
 
-.planos:hover {
+.btn:hover {
     background-color: #ffbf00;
 }
 .personalizado {
@@ -42,4 +42,8 @@
 
 a {
     text-decoration: none;
+}
+
+.btn-footer {
+    margin-bottom: 0;
 }
