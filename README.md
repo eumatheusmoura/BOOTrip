@@ -1,4 +1,4 @@
-# BootsTrip ✈️
+# BooTrip ✈️
 
 <div id="inicio" align=center>
   <a href="#sobre">Sobre</a>&nbsp;&nbsp;
@@ -46,12 +46,28 @@
   - Lógica MVC
   - Programação Orientada a Objetos (POO)
   - Uso da API ViaCEP
+  - Function (JS)
+  - Condicionais If e Else (JS)
+  - Try/Catch (JS)
+  - Classes (JS)
+  - Loop (JS)
+  - Array e manipulações (JS)
+  - JQuery (JS)
+  - Ajax (JQuery)
 
 <h2 id="grupo">Squad 🤍 </h2>
 
 <p> Esse projeto foi pensado e executado por: </p>
 <table>
   <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/felipe-daniel-1855b5223/">
+  <img src="https://media-exp1.licdn.com/dms/image/C5603AQFSrYc50hnFjg/profile-displayphoto-shrink_800_800/0/1634170846077?e=1658966400&v=beta&t=zBgHRWxpcWvYTSAaf9dAwkX-WEqCFwGsXINO0SVHY04" width="100px;" alt="Foto de Felipie no Linkedin"/><br>
+  <sub>
+  <b> Felipe Daniel </b>
+  </sub>
+      </a>
+    </td>
     <td align="center">
       <a href="https://www.linkedin.com/in/jiulie-vitoria/">
   <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGN5GiqUP7Eyw/profile-displayphoto-shrink_800_800/0/1648772959000?e=1658966400&v=beta&t=Iaf5KKmEzl66cXN98xxicS58XveSVgoXUIe8vdX__Ng" width="100px;" alt="Foto de Jiulie no Linkedin"/><br>
@@ -60,6 +76,15 @@
   </sub>
       </a>
     </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/matheus-henrique-de-l%C3%A1zaro-silva/">
+        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFJEL8DiyZVjA/profile-displayphoto-shrink_800_800/0/1594299687109?e=1658966400&v=beta&t=tAFhZBMGB60PXOxL26xJA9RSZj-5GzLH1jlH02OIOlk" width="100px;" alt="Foto do Matheus Henrique no Linkedin"/><br>
+        <sub>
+          <b>Matheus Henrique</b>
+        </sub>
+      </a>
+    </td>
+<td align="center">
 <td align="center">
       <a href="https://www.linkedin.com/in/eumatheusmoura/)">
         <img src="https://avatars.githubusercontent.com/u/94270463?v=4" width="100px;" alt="Foto do Matheus Moura no GitHub"/><br>
