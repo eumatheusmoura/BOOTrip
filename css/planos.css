@@ -1,0 +1,36 @@
+.titulo {
+    text-align: center;
+}
+
+.text {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.world {
+    width: 400px;
+}
+
+.card {
+    background-color: #f8f9fa7b;
+    padding: 0;
+    border-color: #ffc107;
+}
+
+.card-header {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn {
+    background-color: #ffc107;
+    color:black;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #ffbf00;
+}
