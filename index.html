@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootrip</title>
+  <title>Home</title>
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="./css/index.css">
@@ -14,7 +15,7 @@
 <body>
   <nav class="navbar  navbar-expand-md bg-light" id="Navbar">
     <div class="container-fluid">
-      <a class="navbar-brand text-warning text-uppercase fw-semibold" href="#">Boo<span class="text-muted">trip</span></a>
+      <a class="navbar-brand text-warning text-uppercase fw-semibold my-0 p-0" href="./index.html"><img class="my-0 p-0" src="./img/favicon.png"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,7 +30,7 @@
     </div>
   </nav>
 
-  <section class="container-fluid">
+  <section class="container-fluid" aria-label="Carrossel ">
     <div class="row bg-dark">
 
       <div class="col-lg-7 p-0">
@@ -106,14 +107,14 @@
     </div>
   </section>
 
-  <section class="container-fluid py-5 bg-warning text-center">
+  <section class="container-fluid py-5 bg-warning text-center" aria-label="Sobre as Empresas">
     <div class="container">
 
       <div class="my-5">
         <h2 class="display-5 text-white text-uppercase fw-semibold">Sobre as <span class="text-muted">Vantagens</span></h2>
       </div>
-
       <div class="row">
+
         <div class="col-xl-4 col-md-6">
           <div style="height: 100px;" class="d-flex justify-content-center">
             <img src="./img/icon-tech.png" alt="Tecnologia">
@@ -258,10 +259,10 @@
         <div class="col-xl-4 col-md-6">
           <h5 class="footer-heading text-warning">Menu</h5>
           <ul class="list-unstyled">
-            <li><a href="#" class="py-1 d-block text-decoration-none text-secondary">Home</a></li>
-            <li><a href="#" class="py-1 d-block text-decoration-none text-secondary">Planos</a></li>
-            <li><a href="#" class="py-1 d-block text-decoration-none text-secondary">Contato</a></li>
-            <li><a href="#" class="py-1 d-block text-decoration-none text-warning">Cadastre-se</a></li>
+            <li><a href="./index.html" class="py-1 d-block text-decoration-none text-secondary">Home</a></li>
+            <li><a href="./html/planos.html" class="py-1 d-block text-decoration-none text-secondary">Planos</a></li>
+            <li><a href="./html/contatos.html" class="py-1 d-block text-decoration-none text-secondary">Contato</a></li>
+            <li><a href="./html/Cadastro.html" class="py-1 d-block text-decoration-none text-warning">Cadastre-se</a></li>
           </ul>
         </div>
         <div class="col-xl-4 col-md-6">
@@ -273,7 +274,7 @@
             </div>
           </form>
           <h5 class="footer-heading text-secondary b lead fw-semibold mt-4">Repositório</h5>
-          <img href="https://github.com/eumatheusmoura/BootsTrip" src="./img/icon-github.png" height="40px">
+          <a href="https://github.com/eumatheusmoura/BootsTrip"><img src="./img/icon-github.png" height="40px"></a>
         </div>
       </div>
     </div>
