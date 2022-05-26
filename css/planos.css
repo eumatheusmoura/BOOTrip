@@ -27,10 +27,19 @@
 
 .btn {
     background-color: #ffc107;
-    color:black;
+    color: black;
     margin-bottom: 20px;
 }
 
+.personalizado {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
 .btn:hover {
     background-color: #ffbf00;
 }
