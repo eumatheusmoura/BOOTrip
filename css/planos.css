@@ -48,3 +48,15 @@ a {
 .btn-footer {
     margin-bottom: 0;
 }
+
+@media(max-width: 900px) {
+    .world {
+        display: none;
+}
+    .personalizado {
+        width: 150px;
+    }
+    .text {
+        font-size: 0.8rem;
+    }
+}
