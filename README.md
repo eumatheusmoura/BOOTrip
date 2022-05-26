@@ -17,6 +17,8 @@
   - A API ViaCEP deve ser utilizada para obter dados referentes aos CEPs utilizados no cadastro;
   - Utilizar repositório público no github, com todos os integrantes do grupo como colaboradores e disponibilização de uma GithubPage com o projeto;
 
+<img src="./img/printhome.png" alt="imagem da tela do página home">
+
 <br>
 
 <h2 id="andamento">Andamento do projeto 📈</h2>
