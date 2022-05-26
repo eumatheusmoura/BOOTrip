@@ -15,7 +15,7 @@
       rgba(243, 243, 243, 0.8),
       rgba(243, 243, 243, 0.8)
     ),
-    url("/img/bg-google.png");
+    url("../img/bg-google.png");
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-size: cover;
@@ -28,7 +28,7 @@
       rgba(255, 255, 255, 0.8),
       rgba(243, 243, 243, 0.8)
     ),
-    url("/img/bg-facebook.jpg");
+    url("../img/bg-facebook.jpg");
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-size: cover;
@@ -40,7 +40,7 @@
     rgba(255, 255, 255, 0.8),
     rgba(243, 243, 243, 0.8)
   ),
-    url("/img/bg-tiktok.jpg");
+    url("../img/bg-tiktok.jpg");
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-size: cover;
@@ -52,7 +52,7 @@
     rgba(255, 255, 255, 0.8),
     rgba(243, 243, 243, 0.8)
   ),
-    url("/img/bg-ifood.jpg");
+    url("../img/bg-ifood.jpg");
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-size: cover;
@@ -64,7 +64,7 @@
     rgba(255, 255, 255, 0.8),
     rgba(243, 243, 243, 0.8)
   ),
-    url("/img/bg-softbank.jpg");
+    url("../img/bg-softbank.jpg");
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-size: cover;
@@ -76,7 +76,7 @@
     rgba(255, 255, 255, 0.8),
     rgba(243, 243, 243, 0.8)
   ),
-    url("/img/bg-mercadolivre.jpg");
+    url("../img/bg-mercadolivre.jpg");
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-size: cover;
