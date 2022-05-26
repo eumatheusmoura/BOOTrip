@@ -25,12 +25,15 @@
     border-color: #ffc107;
 }
 
-.btn {
+.planos {
     background-color: #ffc107;
     color: black;
     margin-bottom: 20px;
 }
 
+.planos:hover {
+    background-color: #ffbf00;
+}
 .personalizado {
     display: flex;
     align-items: center;
@@ -39,7 +42,4 @@
 
 a {
     text-decoration: none;
-}
-.btn:hover {
-    background-color: #ffbf00;
 }
