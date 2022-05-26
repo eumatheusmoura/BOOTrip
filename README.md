@@ -15,7 +15,7 @@
   - Possuir home, página de detalhes sobre o serviço, cadastro na lista de espera, contato, log in e recuperação de senha;
   - O framework CSS Boostrap deve ser utilizado na elaboração do projeto (versão 4 ou superior);
   - A API ViaCEP deve ser utilizada para obter dados referentes aos CEPs utilizados no cadastro;
-  - Utilizar repositório público no github, com todos os integrantes do grupo como colaboradoradores e disponibilização de uma GithubPage com o projeto;
+  - Utilizar repositório público no github, com todos os integrantes do grupo como colaboradores e disponibilização de uma GithubPage com o projeto;
 
 <br>
 
